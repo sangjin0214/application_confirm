@@ -18,7 +18,7 @@ def main_page():
 @application.route("/application_confirm/")
 def entry():
     template = ""
-    with open("./application_confirm/form.html", "r") as t:
+    with open("./src/search.html", "r") as t:
         template = t.read()
     return template
 
