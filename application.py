@@ -1,7 +1,7 @@
 from flask import Flask, request, send_file
 import sys
 
-from application_confirm import check_info
+from src import check_info
 
 
 application = Flask(__name__)
